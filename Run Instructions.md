@@ -9,7 +9,7 @@ This directory contains the source code for the Topology Optimization framework.
    pip install -r requirements.txt
    ```
 
-## Repository Structure (Expected inside `src/`)
+## Repository Structure 
 * `config.py`: Centralizes physical parameters (Water/Aluminium properties), dimensions, and optimizer hyperparameters.
 * `mesh_geometry.py`: Handles Q4 structured mesh generation, element classification, and boundary condition assembly.
 * `physics_solver.py`: Contains the pre-allocated, in-place CSR finite element solver (Stokes-Darcy & Advection-Diffusion).
